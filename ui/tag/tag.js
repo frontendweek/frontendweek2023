@@ -18,12 +18,12 @@ const Wrapper = styled.a`
   display: inline-block;
   border-radius: 0.4rem;
   padding: 0.4rem 1.6rem;
-  transition: background-color .25s ease;
-  background-color: ${({ theme }) => theme.colors.primary};
+  transition: filter .25s ease;
+  background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
 
   &:hover,
   &:focus {
-    background-color: ${({ theme }) => lighten(0.07, theme.colors.primary)};
+    filter: brightness(120%);
   }
 `
 

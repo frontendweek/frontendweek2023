@@ -5,6 +5,7 @@ export const theme = {
     tertiary: '#462272',
 
 
+
     text: '#fff',
     background: '#000',
   },

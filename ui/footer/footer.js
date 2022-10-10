@@ -34,6 +34,7 @@ export const Footer = () => {
         <div>
           <SectionTitle>Edições anteriores</SectionTitle>
           <LinkList>
+            <li><SectionLink href='http://2021.frontendweek.com.br'>2021</SectionLink></li>
             <li><SectionLink href='http://2020.frontendweek.com.br'>2020</SectionLink></li>
             <li><SectionLink href='http://2019.frontendweek.com.br'>2019</SectionLink></li>
             <li><SectionLink href='http://2018.frontendweek.com.br'>2018</SectionLink></li>
@@ -102,7 +103,7 @@ const SectionLink = styled.a`
 
   &:hover,
   &:focus {
-    border-bottom-color: ${({ theme }) => theme.colors.primary};
+    border-bottom-color: ${({ theme }) => theme.colors.secondary};
   }
 `
 

@@ -12,13 +12,13 @@ export const Button = styled.button`
   text-align: 'center';
   border-radius: 0.4rem;
   padding: 1.6rem 5rem;
-  transition: background-color .25s ease;
-  background-color: ${({ theme }) => theme.colors.primary};
+  transition: filter .25s ease;
+  background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
   color: ${({ theme }) => theme.colors.text};
   text-transform: uppercase;
 
   &:focus,
   &:hover {
-    background-color: ${({ theme }) => lighten(0.07, theme.colors.primary)};
+    filter: brightness(120%);
   }
 `

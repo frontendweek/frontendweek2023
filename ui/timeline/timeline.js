@@ -62,7 +62,7 @@ const CardWrapper = styled.div`
   position: relative;
 
   ${media.greaterThan('md')`
-    border-left: 0.4rem solid ${({ theme }) => theme.colors.tertiary};
+    border-left: 0.4rem solid ${({ theme }) => theme.colors.secondary};
     padding-left: 6.6rem;
 
     &:after {
@@ -73,8 +73,8 @@ const CardWrapper = styled.div`
       width: 6rem;
       height: 6rem;
       border-radius: 50%;
-      background-color: #3A2457;
-      border: 0.4rem solid ${({ theme }) => theme.colors.primary};
+      background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+      border: 0.4rem solid ${({ theme }) => theme.colors.secondary};
       position: absolute;
       left: -3.2rem;
       top: 0;

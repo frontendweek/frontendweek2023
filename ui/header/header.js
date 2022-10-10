@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { media } from 'ui'
+import { media, GradientText } from 'ui'
 
 export const Header = () => (
   <Wrapper
@@ -9,12 +9,12 @@ export const Header = () => (
     animate='visible'
     variants={motionWrapper}
   >
-    <Text>8ª Edição</Text>
+    <Text>9ª Edição</Text>
     <Text
       as='a'
       href='https://twitter.com/frontendweek'
       target='_blank'
-    >@frontendweek</Text>
+    ><GradientText> @frontendweek </GradientText></Text>
   </Wrapper>
 )
 
@@ -59,6 +59,6 @@ const Text = styled.p`
   color: ${({ theme }) => theme.colors.text};
 
   &[href]:hover {
-    color: ${({ theme }) => theme.colors.primary};
+    background-color: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
   }
 `

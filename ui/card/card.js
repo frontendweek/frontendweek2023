@@ -7,10 +7,11 @@ export const Card = ({ backgroundId, eventName, eventDate, eventHour, eventLinks
   const background = backgrounds[backgroundId]
   return (
     <Wrapper background={background}>
-      <Title>{eventName}</Title>
+      <Title>{eventName} </Title>
       <Description>
         {eventDate} <GradientText>•</GradientText> {eventHour}
       </Description>
+
       <TagContainer>
         {eventLinks.map(({ name, url }, index) => (
           <Tag name={name} url={url} key={`${name}-${index}`} />

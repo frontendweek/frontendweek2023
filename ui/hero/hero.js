@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { media, Container, Button, GradientText } from 'ui'
+import { media, Container, Button, GradientText, GradientLogo } from 'ui'
 
 const makeAnimation = delay => ({
   initial: 'hidden',
@@ -23,12 +23,15 @@ export const Hero = () => (
   <Container>
     <Wrapper>
       <MotionWrapper {...makeAnimation(0.6)}>
-        <HeroLogo src='/hero.svg' width={477} height={170} alt="Front-end Week 2021" />
+        <LogoText {...makeAnimation(0.7)}><GradientLogo>front-end week</GradientLogo></LogoText>
+        <Text {...makeAnimation(0.7)}>de 16 a 21 de Janeiro de 2023</Text>
+
       </MotionWrapper>
-      <Text {...makeAnimation(0.7)}>Edição Online <GradientText>•</GradientText> de 12 a 17 de Julho de 2021</Text>
+
       <MotionWrapper {...makeAnimation(0.8)}>
         <Button as='a' href="#events">Ver programação</Button>
       </MotionWrapper>
+
     </Wrapper>
   </Container>
 )
@@ -64,8 +67,18 @@ const Text = styled(motion.p)`
   `}
 `
 
-const HeroLogo = styled.img`
-  display: block;
-  width: 100%;
-  max-width: 47.7rem;
+const LogoText = styled(motion.p)`
+  font-size: clamp(2rem, 4vw, 2.4rem);
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0 0 1.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  ${media.lessThan('sm')`
+    flex-direction: column;
+    gap: 0;
+  `}
 `

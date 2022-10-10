@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-import { Button } from 'ui'
+import { Button, GradientText } from 'ui'
 
 export const AddEvent = () => (
   <Wrapper>
     <Text>Você organiza algum <b>evento</b> de front-end e deseja adicionar nesta lista?</Text>
-    <Button as='a' href='https://github.com/frontendweek/frontendweek2021'>Adicionar evento</Button>
+    <Button as='a' href='https://github.com/frontendweek/frontendweek2023'>Adicionar evento</Button>
   </Wrapper>
 )
 
@@ -23,6 +23,10 @@ const Text = styled.p`
   margin-bottom: 5.6rem;
 
   > b {
-    color: ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: filter .25s ease;
   }
 `
