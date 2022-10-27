@@ -23,7 +23,7 @@ const Text = styled.p`
   margin-bottom: 5.6rem;
 
   > b {
-    background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+    background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

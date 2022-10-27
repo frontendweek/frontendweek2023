@@ -19,7 +19,7 @@ const Wrapper = styled.a`
   border-radius: 0.4rem;
   padding: 0.4rem 1.6rem;
   transition: filter .25s ease;
-  background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+  background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
 
   &:hover,
   &:focus {

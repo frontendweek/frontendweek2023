@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { media, Container, Button, GradientText, GradientLogo } from 'ui'
+import { media, Container, Button, GradientLogo } from 'ui'
 
 const makeAnimation = delay => ({
   initial: 'hidden',
@@ -54,17 +54,9 @@ const MotionWrapper = styled(motion.div)``
 const Text = styled(motion.p)`
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.5;
   margin: 0 0 5.6rem;
   text-align: center;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-
-  ${media.lessThan('sm')`
-    flex-direction: column;
-    gap: 0;
-  `}
 `
 
 const LogoText = styled(motion.p)`

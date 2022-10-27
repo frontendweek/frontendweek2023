@@ -73,7 +73,7 @@ const CardWrapper = styled.div`
       width: 6rem;
       height: 6rem;
       border-radius: 50%;
-      background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+      background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
       border: 0.4rem solid ${({ theme }) => theme.colors.secondary};
       position: absolute;
       left: -3.2rem;

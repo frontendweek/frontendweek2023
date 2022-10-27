@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { lighten } from 'polished'
 
 export const Button = styled.button`
   text-decoration: none;
@@ -13,9 +12,8 @@ export const Button = styled.button`
   border-radius: 0.4rem;
   padding: 1.6rem 5rem;
   transition: filter .25s ease;
-  background: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+  background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
   color: ${({ theme }) => theme.colors.text};
-  text-transform: uppercase;
 
   &:focus,
   &:hover {

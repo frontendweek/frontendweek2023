@@ -59,6 +59,6 @@ const Text = styled.p`
   color: ${({ theme }) => theme.colors.text};
 
   &[href]:hover {
-    background-color: ${({ theme }) => `linear-gradient(to bottom, ${theme.colors.primary}, ${theme.colors.secondary})`};
+    background-color: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
   }
 `
