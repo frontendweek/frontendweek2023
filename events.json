@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "eventName": "Meetup HTML SP",
+      "eventDate": "18/01",
+      "eventHour": "19h",
+      "eventLinks": [
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/meetuphtmlsp"
+        }
+      ]
+    },
+    {
       "eventName": "Meetup CSS SP",
       "eventDate": "19/01",
       "eventHour": "19h",
