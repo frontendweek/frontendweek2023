@@ -1,6 +1,29 @@
 {
   "events": [
     {
+      "eventName": "Meetup Angular SP",
+      "eventDate": "17/01",
+      "eventHour": "19h",
+      "eventLinks": [
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/angularsp"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/angular_sp/"
+        },
+        {
+          "name": "Meetup",
+          "url": "https://www.meetup.com/pt-BR/angularjs-sao-paulo/"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/angularsp/"
+        }
+      ]
+    },
+    {
       "eventName": "Meetup HTML SP",
       "eventDate": "18/01",
       "eventHour": "19h",
