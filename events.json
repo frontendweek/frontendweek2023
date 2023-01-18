@@ -29,8 +29,16 @@
       "eventHour": "19h",
       "eventLinks": [
         {
+          "name": "Site",
+          "url": "https://links.dev/html_sp"
+        },
+        {
           "name": "Twitter",
-          "url": "https://twitter.com/meetuphtmlsp"
+          "url": "https://twitter.com/html_sp"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/html_sp/"
         }
       ]
     },
