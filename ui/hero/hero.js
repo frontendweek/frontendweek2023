@@ -24,7 +24,7 @@ export const Hero = () => (
     <Wrapper>
       <MotionWrapper {...makeAnimation(0.6)}>
         <LogoText {...makeAnimation(0.7)}><GradientLogo>front-end week</GradientLogo></LogoText>
-        <Text {...makeAnimation(0.7)}>de 16 a 21 de Janeiro de 2023</Text>
+        <Text {...makeAnimation(0.7)}>de 24 a 29 de Julho de 2023</Text>
 
       </MotionWrapper>
 

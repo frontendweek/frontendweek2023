@@ -6,8 +6,9 @@ import { Tag, GradientText, EventProps } from 'ui'
 export const Card = ({ backgroundId, eventName, eventDate, eventHour, eventLinks }) => {
   const background = backgrounds[backgroundId]
   return (
-    <Wrapper background={background}>
-      <Title>{eventName} </Title>
+      <Wrapper background={background}>
+      
+      <Title> {eventName}</Title>
       <Description>
         {eventDate} <GradientText>•</GradientText> {eventHour}
       </Description>

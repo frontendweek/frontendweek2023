@@ -9,7 +9,7 @@ export const Header = () => (
     animate='visible'
     variants={motionWrapper}
   >
-    <Text>9ª Edição</Text>
+    <Text>10ª Edição (2ª do ano)</Text>
     <Text
       as='a'
       href='https://twitter.com/frontendweek'

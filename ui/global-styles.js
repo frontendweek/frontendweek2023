@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     cursor: default;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Carter One', cursive;
     font-variant-ligatures: none;
     color: ${({ theme }) => theme.colors.text};
     background: ${({ theme }) => theme.colors.background};
