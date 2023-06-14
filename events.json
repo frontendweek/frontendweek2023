@@ -1,6 +1,67 @@
 {
   "events": [
     {
+      "eventName": "Frontend SP Meetup",
+      "eventDate": "27/07",
+      "eventHour": "19h",
+      "eventLinks": [
+        {
+          "name": "Meetup.com",
+          "url": "https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/frontendsp"
+        }
+      ]
+    },
+    {
+      "eventName": "FRONTIN Sampa 2023",
+      "eventDate": "29/01",
+      "eventHour": "9h",
+      "eventLinks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/frontinsampa"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/frontintech"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/frontintech/"
+        },
+        {
+          "name": "Website",
+          "url": "https://www.evento.frontinsampa.com.br/"
+        }
+      ]
+    },
+    {
+      "eventName": "Code In The Dark Brasil",
+      "eventDate": "29/07",
+      "eventHour": "18h",
+      "eventLinks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/codeinthedarkbr"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/CodeintheDarkBR/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/codeinthedarkbrasil/"
+        },
+        {
+          "name": "Website",
+          "url": "https://codeinthedark.com.br"
+        }
+      ]
+    },
+    {
       "eventName": "Meetup Angular SP",
       "eventDate": "17/01",
       "eventHour": "19h",

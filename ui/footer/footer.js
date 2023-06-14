@@ -16,12 +16,16 @@ export const Footer = () => {
         <div>
           <SectionTitle>Apoio</SectionTitle>
           <Supporters>
-            <a href='https://portolab.com.br'>
-              <img src='/portolab-logo.svg' width={190} height={99} alt="Portolab" />
+            <a href='http://codeinthedark.com.br/'>
+              <img src='/citd.png' width={135} height={99} alt="Code In The Dark Brasil"/>
             </a>
-            <a href='https://github.com/frontendbr'>
-              <img src='/frontendbr-logo.svg' width={190} height={99} alt="Front-endBR"/>
+
+            <a href='https://evento.frontinsampa.com.br/'>
+              <img src=' /fsp.svg' width={178} height={99} alt="FRONTIN Sampa 2023"/>
             </a>
+
+
+      
           </Supporters>
         </div>
         <div>

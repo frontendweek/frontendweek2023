@@ -4,9 +4,11 @@ import t from 'prop-types'
 import { Card, media } from 'ui'
 
 export const Timeline = ({ events }) => (
+  
   <Wrapper>
     {events.map((item, index) => (
       <Item key={index}>
+        {item.eventDate &&  (item.eventDate==="17/01" || item.eventDate==="18/01" || item.eventDate==="19/01" || item.eventDate==="21/01") &&   <div className='oldevent'>Old Event</div> }
         <EventDate>{item.eventDate}</EventDate>
         <CardWrapper>
           <Card {...item} />
@@ -48,11 +50,23 @@ const EventDate = styled.p`
 
 const Item = styled.div`
   display: flex;
+  position: relative;
 
   &:last-child {
     > div {
       border-left-color: transparent;
     }
+  }
+  .oldevent {
+    z-index: 9;
+    height: 100%;
+    background: #121212;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.9;
+    text-indent: -999999px;
   }
 `
 
