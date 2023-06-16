@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "eventName": "O Essencial Para Programar Interfaces Como Profissional com Keit Oliveira",
+      "eventDate": "22/07",
+      "eventHour": "08h",
+      "eventLinks": [
+        {
+          "name": "Eventbrite",
+          "url": "https://bit.ly/programar-interfaces-keit-oliveira"
+        }
+      ]
+    },
+    {
+      "eventName": "Workshop Design Patterns para Front-End NA PRÁTICA com DevSoutinho, Mario Souto",
+      "eventDate": "22/07",
+      "eventHour": "08h",
+      "eventLinks": [
+        {
+          "name": "Eventbrite",
+          "url": "https://bit.ly/design-patterns-mario-souto"
+        }
+      ]
+    },
+    {
+      "eventName": "Ferramentas Essenciais para Lideranças Técnicas com Edu Matos",
+      "eventDate": "24/07",
+      "eventHour": "19h",
+      "eventLinks": [
+        {
+          "name": "Eventbrite",
+          "url": "https://bit.ly/ferramenta-liderancas-edu-matos"
+        }
+      ]
+    },
+    {
       "eventName": "Frontend SP Meetup",
       "eventDate": "27/07",
       "eventHour": "19h",
