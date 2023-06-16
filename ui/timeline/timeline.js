@@ -72,8 +72,8 @@ const Item = styled.div`
   }
   .hascoupon {
     position: absolute;
-    bottom: 11rem;
-    right: 2rem;
+    top: 0;
+    right: 0;
     background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
     padding: 10px;
     z-index: 1;
