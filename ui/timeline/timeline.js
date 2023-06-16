@@ -9,6 +9,7 @@ export const Timeline = ({ events }) => (
     {events.map((item, index) => (
       <Item key={index}>
         {item.eventDate &&  (item.eventDate==="17/01" || item.eventDate==="18/01" || item.eventDate==="19/01" || item.eventDate==="21/01") &&   <div className='oldevent'>Old Event</div> }
+        {item.eventCoupon && <div className="hascoupon"> {item.eventCoupon} </div>}
         <EventDate>{item.eventDate}</EventDate>
         <CardWrapper>
           <Card {...item} />
@@ -23,6 +24,7 @@ export const EventProps = t.shape({
   eventName: t.string.isRequired,
   eventDate: t.string.isRequired,
   eventHour: t.string.isRequired,
+  eventCoupon: t.string,
   eventLinks: t.arrayOf(t.shape({
     name: t.string,
     url: t.string,
@@ -67,6 +69,26 @@ const Item = styled.div`
     overflow: hidden;
     opacity: 0.9;
     text-indent: -999999px;
+  }
+  .hascoupon {
+    position: absolute;
+    bottom: 11rem;
+    right: 2rem;
+    background: ${({ theme }) => `linear-gradient(140deg, ${theme.colors.primary}, ${theme.colors.secondary})`};
+    padding: 10px;
+    z-index: 1;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+
+    &:before {
+      content: "Cupom";
+      width: 100px;
+      height: 50px;
+      display: block;
+      position: absolute;
+      top: -15px;
+      left: 0;
+    }
   }
 `
 
